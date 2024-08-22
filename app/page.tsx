@@ -1132,26 +1132,7 @@ export default function Home() {
              People Search Engine
           
             </h2>
-            <div className="flex justify-center items-center space-x-4 mb-6">
-              <Link href="https://www.producthunt.com/posts/miniperplx?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-miniperplx" target="_blank" rel="noopener noreferrer" passHref>
-                <Image
-                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=481378&theme=light"
-                  alt="MiniPerplx - A minimalistic AI-powered search engine. | Product Hunt"
-                  width={250}
-                  height={54}
-                  className="h-12 w-auto"
-                />
-              </Link>
-              <Link href="https://peerlist.io/zaidmukaddam/project/miniperplx" target="_blank" rel="noopener noreferrer" passHref>
-                <Image
-                  src="/Launch_SVG_Light.svg"
-                  alt="Peerlist"
-                  width={32}
-                  height={32}
-                  className="h-12 w-auto"
-                />
-              </Link>
-            </div>
+            
           </div>
         )}
         <AnimatePresence>
