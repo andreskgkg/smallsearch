@@ -1127,9 +1127,10 @@ export default function Home() {
       <div className={`w-full max-w-[90%] sm:max-w-2xl space-y-6 p-1 ${hasSubmitted ? 'mt-16 sm:mt-20' : 'mt-[26vh] sm:mt-[30vh]'}`}>
         {!hasSubmitted && (
           <div className="text-center">
-            <h1 className="text-4xl sm:text-6xl mb-1 text-gray-800 font-serif">MiniPerplx</h1>
+            <h1 className="text-4xl sm:text-6xl mb-1 text-gray-800 font-serif">The Network Search</h1>
             <h2 className='text-xl sm:text-2xl font-serif text-balance text-center mb-6 text-gray-600'>
-              In search for minimalism and simplicity
+             People Search Engine
+          
             </h2>
             <div className="flex justify-center items-center space-x-4 mb-6">
               <Link href="https://www.producthunt.com/posts/miniperplx?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-miniperplx" target="_blank" rel="noopener noreferrer" passHref>
